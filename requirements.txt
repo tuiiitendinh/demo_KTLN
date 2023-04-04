@@ -1,0 +1,9 @@
+Flask==2.2.2
+timm==0.5.4
+munch == 2.5.0
+x_transformers==0.15.0
+transformers==4.24.0
+opencv_python_headless==4.6.0.66
+einops == 0.6.0
+albumentations==1.2.1
+gunicorn==20.1.0
