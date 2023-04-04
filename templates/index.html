@@ -59,28 +59,6 @@
     });
   </script>
 
-  <!-- Create a script to get the text inside textare after submit, which is the equation-->
-  <script>
-    function getLatex() {
-      var latex = document.getElementById("latex").value;
-      return latex;
-    }
-    //take that LaTeX and send it to the KaTeX to render it
-    function renderLatex() {
-      var latex = getLatex();
-      var katex = document.getElementById("katex");
-      katex.innerHTML = katex.renderToString(latex);
-    }
-  </script>
-
-  <!-- Create a 200x200 frame to render the LaTeX equation-->
-  <div id="katex" style="width: 200px; height: 200px;">
-    <!-- get the equation-->
-    <script>
-      renderLatex();
-    </script>
-  </div>
-
 
   <!-- Create a text at the BOTTOM-RIGHT CORNER of the site, right magrin all of texts-->
   <div style="text-align: right; margin-right: 10px;">
