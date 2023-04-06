@@ -1,0 +1,80 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    padding: 24px 0;
+    width: 100%;
+    margin: 100px auto;
+    background-color: #f8f8f8;
+}
+
+.content h1 {
+    margin-bottom: 32px;
+}
+/* form */
+#upload-form {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 64px auto;
+}
+
+.input-btn {
+    text-align: center;
+}
+
+.upload-btn {
+    height: 21px;
+    padding: 0 4px;
+}
+
+/* textarea */
+#result {
+    /* display: block; */
+    margin: auto;
+    /* width: 50%; */
+}
+
+/* contain */
+.contain {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+    margin: 64px auto;
+    width: 70%;
+}
+/* Pic */
+#image-frame {
+    width: 45%;
+    padding: 8px;
+    display: inline-block;
+    justify-content:center;
+    background-color: white;
+    border: 1px solid;
+
+}
+
+#image {
+    float: left;
+    max-width: 100%;
+}
+
+.table {
+    width: 45%;
+    height: 200px !important;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid;
+    height: 10px;
+}
+
+/* footer */
+.footer{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
